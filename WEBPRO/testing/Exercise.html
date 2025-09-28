@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Data Mahasiswa</title>
+</head>
+<body>
+<form>
+<table border = "1">
+    <tr>
+        <td> NIM:</td>
+        <td> <input type ="text" name = "NIM" required></td>
+    </tr>
+    <tr>
+        <td>Nama</td>
+        <td> <input type = "text"name = "Nama" required></td>
+    </tr>
+    <tr>
+        <td>Tgl Lahir (dd-mm-yyyy)</td>
+        <td> <input type = "date"name = "Tanggal" required></td>
+    </tr>
+    <tr>
+        <td>Jenis Kelamin</td>
+        <td> <input type = "radio"name = "JK" value = "Laki-laki" required>Laki-laki
+             <input type = "radio"name = "JK" value = "Perempuan" required>Perempuan
+        </td>
+    </tr>
+    <tr>
+        <td>Alamat di Bandung</td>
+        <td> <textarea name = "Alamat" rows = "5" cols = "30" required></textarea></td>
+    </tr>
+    <tr>
+        <td>Tinggal di:</td>
+        <td><select name="Tempat Tinggal" required>
+            <option value="" selected>--pilih--</option>
+            <option value="Kos/kontrakan">Kos/Kontrakan</option>
+            <option value="Rumah saudara">Rumah saudara</option>
+            <option value="Rumah ortu">Rumah orang tua</option>
+            </select></td>
+    </tr>
+    <tr>
+        <td>Pilih 2 hobi yang paling disukai</td>
+        <td><input type = "checkbox" name="Sains"/>Science <br/>
+            <input type = "checkbox" name="Teknologi"/>Technology <br/>
+            <input type = "checkbox" name="Seni"/>Art <br/>
+            <input type = "checkbox" name="Olahraga"/>Sport <br/>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <input type ="submit"value="Submit">
+            <input type ="reset"value = "Reset">
+        </td>
+    </tr>
+</table>
+</form>
+</body>
+</html>

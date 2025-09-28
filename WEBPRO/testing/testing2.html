@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Latihan 2</title>
+</head>
+<body>
+    <form>
+        First name: <br/>
+        <input type = "text" name="firstname"placeholder="isi nama anda"><br/>
+        Last name: <br/>
+        <input type = "text" name= "lastname"placeholder="isi nama anda"><br/><br/>
+       <!-- <input type = "text" name= "lastname"value= "HD" ><br/><br/>
+        <input type = "radio" name= "gender" value= "male"checked /> Male <br/> -->
+        <input type = "radio" name= "gender" value= "male"/> Male <br/>
+        <input type = "radio" name = "gender"value = "female" /> Female <br/><br/>
+        Date of Birth: <br/>
+        <input type = "date" name= "bday"><br/><br/>
+        <input type = "date" min = "2025-09-23" max = "2025-09-30"><br/><br/>
+        Quantity: <input type = "number" name= "quantity" min = "1" max = "5"/><br/><br/>
+        Favorite Color:
+        <input type = "text" list="colors"name="favcolor"/>
+        <datalist id="colors"> 
+            <option value="Red">
+            <option value="Green">
+            <option value="Blue">
+            <option value="Yellow">
+            <option value="Black">
+            <option value="White">
+        </datalist> <br/>
+        <input type = "email"name ="email" placeholder="isi email anda" required><br/>
+        Random Text: <br/>
+        <input type = "text" maxlength="12" size = "20" required><br/><br/>
+        <input type= "submit" value= "Submit">
+    </form>
+</body>
+</html>
