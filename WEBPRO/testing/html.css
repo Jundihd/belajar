@@ -1,0 +1,17 @@
+h2{
+    font-family: arial;
+    color:blue;
+}
+p{
+    font-family:'Times New Roman', Times, serif ;
+    color: red;
+}
+h1{
+    font-size: 64px;
+    font-weight: bold;
+    font-style: italic;
+    color:aqua;
+}
+h1:hover{
+    color:red;
+}
